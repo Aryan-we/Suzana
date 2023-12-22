@@ -1,0 +1,165 @@
+h1,#home{
+    background :green;
+    display:inline-block;
+    padding:.5rem 3rem;
+    color:white;
+    clip-path:polygon(100% 0,93% 50%,100% 99%,0% 100%,7% 50%,0% 0%);
+    font-size:40px;
+       
+}         
+a{
+    text-decoration:none;
+}
+header{
+    position:stick;
+}
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+     
+}
+div{
+    text-align:center;
+    }
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    padding:10px;
+    margin:10px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+#main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px;
+}
+
+.image-container {
+    width: 400px;
+    margin-right: 40px;
+}
+
+img {
+    max-width: 100%;
+}
+
+.content {
+    text-align: center;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+p {
+    margin-bottom: 20px;
+    font-size:20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 4px;
+}
+
+
+.container{
+    width: 300px;
+    padding: 16px;
+    background-color: #f2f2f2;
+    margin:0 auto;
+    margin-top: 100px;
+    margin-bottom:50px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+       
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+}
+       
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
+       
+button:hover {
+            opacity: 0.8;
+}    
+.album {
+     
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      grid-gap: 20px;
+     
+    }
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+#comments{
+    font-size:18px;
+}
+#likeCount {
+  margin-left: 10px;
+  font-weight: bold;
+}
+.social-icons {
+      margin-top: 20px;
+    }
+.social-icons a {
+      display: inline-block;
+      margin-right: 10px;
+    }
+.social-icons img {
+      width: 30px;
+      height: 30px;
+    }
